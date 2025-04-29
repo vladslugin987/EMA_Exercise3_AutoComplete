@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoComplete</string>
+    <string name="hint_enter_item">Artikel eingeben</string>
+    <string name="button_finish">fertig</string>
+    <string name="toast_empty_list">Keine Artikel in der Einkaufsliste!</string>
+    <string name="toast_header">Einkaufsliste:</string>
+</resources>

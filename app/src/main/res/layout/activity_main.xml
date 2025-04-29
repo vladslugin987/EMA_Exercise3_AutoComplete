@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AutoComplete"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Artikel eingeben"
+        android:padding="10dp"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:background="@android:drawable/edit_text" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Artikel eingeben"
+        android:padding="10dp"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:background="@android:drawable/edit_text" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Artikel eingeben"
+        android:padding="10dp"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:background="@android:drawable/edit_text" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Artikel eingeben"
+        android:padding="10dp"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:background="@android:drawable/edit_text" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteItem5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Artikel eingeben"
+        android:padding="10dp"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="fertig" />
+
+</LinearLayout>
