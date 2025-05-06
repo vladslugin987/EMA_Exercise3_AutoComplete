@@ -60,10 +60,10 @@ public class MainActivity extends AppCompatActivity {
         // Adapter für alle AutoCompleteTextViews setzen
         for (AutoCompleteTextView autoCompleteTextView : autoCompleteTextViews) {
             autoCompleteTextView.setAdapter(adapter);
-            autoCompleteTextView.setThreshold(1); // Bereits nach einem Buchstaben Vorschläge zeigen
+            autoCompleteTextView.setThreshold(1); // Nach einem Buchstaben Vorschläge zeigen
         }
 
-        // Button zum Abschließen der Eingabe
+        // fertig button
         finishButton = findViewById(R.id.buttonFinish);
         finishButton.setOnClickListener(new View.OnClickListener() {
             @Override
